@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HW#3 - Word Guess Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS Link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <!-- CSS Link -->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+
+</head>
+
+<body>
+    <div class="section">
+
+        <div class="video-container" type="video/mp4">
+            <video autoplay lopp muted>
+                <source src="images/Pexels Videos 4513.mp4">
+            </video>
+        </div>
+
+        <div class="letters-container">
+            <h2 id="guesses-number"><span id="remainingGuesses"></span></h2>
+            <p id="guesses-letters"><span id="guessedLetters"></span></p>
+        </div>
+
+        <div class="game-container">
+
+            <div class="currentWord-container">
+                <h1>
+                    <span id="currentWord"></span>
+                </h1>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <h4>Wins:&nbsp;<span id="wins-text"></span></h4>
+        <button class="btn btn-warning btn-lg" id="start-button">Click to Play!</button>
+        <h4>Losses:&nbsp;<span id="losses-text"></span></h4>
+    </footer>
+
+    <!-- jQuery Link -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+    <!-- JavaScript Link -->
+    <script src="javascript/game.js"></script>
+
+</body>
+
+</html>

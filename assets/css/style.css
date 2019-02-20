@@ -1,0 +1,83 @@
+.section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#guesses-number {
+    font-size: 40px;
+}
+
+#guesses-letters {
+    font-style: italic;
+}
+
+.game-container {
+    background-color: rgba(0, 145, 255, 0.633);
+    left: -155px;
+    bottom: -25px;
+    height: 65%;
+    width: 65%;
+    position: relative;
+    margin: 30px auto;
+    padding: 0px;
+    z-index: 1;
+    border-radius: 50%;
+    display: inherit;
+}
+
+.currentWord-container {
+    transform: translate( 3%, 35% );
+    text-align: center;
+}
+
+.letters-container {
+    background-color: rgba(0, 166, 255, 0.53);
+    left: -17px;
+    bottom: 208px;
+    height: 40%;
+    width: 40%;
+    position: relative;
+    margin: 30px auto;
+    padding: 0px;
+    z-index: 1;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+}
+
+
+#start-button {
+    background-color: black;
+    color: #ffac47;
+    position: absolute;
+    bottom: 40px;
+}
+
+ /* FOOTER*/
+ footer {
+    background-color: #ffc782c3;
+    border-top: 5px solid #ffac47;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: small;
+    margin-top: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+}
